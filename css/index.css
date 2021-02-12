@@ -1,3 +1,24 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  margin: 0 auto;
+
+  outline: 2px solid tomato;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav {
+  margin: 0 auto;
+}
+
 .nav-menu.current {
   color: var(--select-color);
 }
@@ -7,10 +28,20 @@
 }
 
 .hero {
+  height: 600px;
   background-color: var(--background-hero-footer);
+  text-align: center;
+  outline: 2px solid tomato;
+  margin-bottom: 94px;
 }
 
 .hero-title {
+  /* display: block; */
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -18,16 +49,19 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
+  background-color: teal;
 }
 
 .hero-link {
-  width: 200px;
-  height: 50px;
+  display: inline-block;
+  padding: 10px 32px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
+  min-width: 200px;
+
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
@@ -37,6 +71,7 @@
 }
 
 .tenet {
+  margin-bottom: 94px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -44,7 +79,15 @@
   color: var(--gray-text-color);
 }
 
+.tenet-list,
+.tenet-list p {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 270px;
+}
+
 .tenet-title {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -60,8 +103,19 @@
   letter-spacing: 0.03em;
 }
 
+.activities {
+  margin-bottom: 94px;
+}
+
+.activities-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .activities-title,
 .team-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -84,6 +138,8 @@
 }
 
 .team-member {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
