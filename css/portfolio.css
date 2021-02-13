@@ -20,10 +20,9 @@
 }
 
 .project-list-item {
-  /* background: var(background-project-list); */
+  background: var(background-project-list);
   border: 1px solid var(--border-project-list);
-  width: 370px;
-  background-color: tomato;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
