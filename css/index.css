@@ -1,8 +1,8 @@
 /* .container {
   width: 1200px;
   padding: 0 15px;
-  margin: 0 auto;
-  /* outline: 1px solid red; */
+  margin: 0 auto; */
+/* outline: 1px solid red;
 } */
 
 .head-container {
@@ -17,6 +17,8 @@
 .logo-studio-white {
   color: var(--white-text-color);
 }
+
+/* Hero */
 
 .hero {
   background-color: var(--background-hero-footer);
@@ -54,6 +56,8 @@
   padding: 10px 32px;
 }
 
+/* Наши принципы */
+
 .tenet {
   font-weight: normal;
   font-size: 14px;
@@ -64,13 +68,12 @@
 
 .tenet-list {
   display: flex;
-   padding-top: 94px;
-  padding-bottom: 94px; 
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .tenet-list .tenet-list-items {
   width: 270px;
-
 }
 
 .tenet-list .tenet-list-items:not(:last-child) {
@@ -95,13 +98,12 @@
   letter-spacing: 0.03em;
 }
 
-
+/* Чем мы занимаемся */
 
 .activities-photos {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
- 
 }
 
 .activities-img {
@@ -115,12 +117,11 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-text-color); 
+  color: var(--black-text-color);
   margin-bottom: 50px;
 }
 
-
-
+/* Команда */
 .team {
   background-color: var(--background-team);
   padding-top: 94px;

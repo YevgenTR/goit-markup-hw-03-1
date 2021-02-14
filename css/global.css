@@ -30,6 +30,7 @@ img {
   height: auto;
 }
 
+/* Обнуление некоторых стилей */
 h1,
 h2,
 h3,
@@ -44,6 +45,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Эталонный контейнер */
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -51,6 +54,7 @@ a {
   /* outline: 1px solid red; */
 }
 
+/* Контейнер шапки */
 .head-container {
   width: 1200px;
   padding: 0 15px;
@@ -139,6 +143,8 @@ a {
   color: var(--gray-text-color);
 }
 
+/* Footer */
+
 .footer-main {
   background: var(--background-hero-footer);
   min-height: 252px;
@@ -176,7 +182,7 @@ a {
   margin-top: 9px;
 }
 
-/* Стили  */
+/* Стили Footer link */
 .footer-mail,
 .footer-phone {
   font-weight: normal;
