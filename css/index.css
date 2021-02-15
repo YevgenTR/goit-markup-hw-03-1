@@ -63,13 +63,13 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 94px;
   color: var(--gray-text-color);
 }
 
 .tenet-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .tenet-list .tenet-list-items {
@@ -100,10 +100,13 @@
 
 /* Чем мы занимаемся */
 
+.activities {
+  padding-bottom: 94px;
+}
+
 .activities-photos {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 .activities-img {

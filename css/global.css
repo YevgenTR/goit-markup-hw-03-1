@@ -55,6 +55,11 @@ a {
 }
 
 /* Контейнер шапки */
+.page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .head-container {
   width: 1200px;
   padding: 0 15px;
@@ -69,7 +74,6 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
-  min-height: 80px;
 }
 
 .nav-list li:not(:first-child) {
@@ -147,7 +151,8 @@ a {
 
 .footer-main {
   background: var(--background-hero-footer);
-  min-height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: block;
 }
 
@@ -155,17 +160,12 @@ a {
   margin-bottom: 20;
 }
 
-.footer-main {
-  padding: 60px 15px;
-}
-
 .footer-container {
+  display: block;
   width: 1200px;
-  /* min-height: 252px; */
-  /* padding: 60px 15px; */
   margin-right: auto;
   margin-left: auto;
-  display: block;
+  padding: 0 15px;
   /* outline: 1px solid red; */
 }
 
