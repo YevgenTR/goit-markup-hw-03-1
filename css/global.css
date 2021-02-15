@@ -155,10 +155,14 @@ a {
   margin-bottom: 20;
 }
 
+.footer-main {
+  padding: 60px 15px;
+}
+
 .footer-container {
   width: 1200px;
-  min-height: 252px;
-  padding: 60px 15px;
+  /* min-height: 252px; */
+  /* padding: 60px 15px; */
   margin-right: auto;
   margin-left: auto;
   display: block;
